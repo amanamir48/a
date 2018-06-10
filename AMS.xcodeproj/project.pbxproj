@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1BECF3A024B5C941FE892F2 /* Pods_AMS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21DD3D9703143ECFADF5C7F /* Pods_AMS.framework */; };
+		DB8F60F120C077B100D53F45 /* RegistrationHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F60F020C077B100D53F45 /* RegistrationHomeViewController.swift */; };
+		DB8F60F320C0781E00D53F45 /* CollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F60F220C0781E00D53F45 /* CollegeViewController.swift */; };
+		DB8F60F620C07AB400D53F45 /* CoachingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F60F520C07AB400D53F45 /* CoachingViewController.swift */; };
+		DB8F60F820C0819E00D53F45 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F60F720C0819E00D53F45 /* HomeTabViewController.swift */; };
+		DB8F60FA20C081C200D53F45 /* TimeTableTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F60F920C081C200D53F45 /* TimeTableTabViewController.swift */; };
+		DB8F60FC20C081D700D53F45 /* ProfileTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F60FB20C081D700D53F45 /* ProfileTabViewController.swift */; };
+		DB8F60FF20C08C9E00D53F45 /* UIFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F60FE20C08C9E00D53F45 /* UIFormatting.swift */; };
+		DB8F610120C0920F00D53F45 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8F610020C0920F00D53F45 /* TabBarViewController.swift */; };
 		DBB4367320BF44BB0036868F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB4367220BF44BB0036868F /* AppDelegate.swift */; };
 		DBB4367520BF44BB0036868F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB4367420BF44BB0036868F /* ViewController.swift */; };
 		DBB4367820BF44BB0036868F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB4367620BF44BB0036868F /* Main.storyboard */; };
@@ -15,6 +24,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5122DE029C54AE1908A2A650 /* Pods-AMS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMS/Pods-AMS.debug.xcconfig"; sourceTree = "<group>"; };
+		A21DD3D9703143ECFADF5C7F /* Pods_AMS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D105040D24D30E1529367856 /* Pods-AMS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMS/Pods-AMS.release.xcconfig"; sourceTree = "<group>"; };
+		DB8F60F020C077B100D53F45 /* RegistrationHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationHomeViewController.swift; sourceTree = "<group>"; };
+		DB8F60F220C0781E00D53F45 /* CollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeViewController.swift; sourceTree = "<group>"; };
+		DB8F60F520C07AB400D53F45 /* CoachingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachingViewController.swift; sourceTree = "<group>"; };
+		DB8F60F720C0819E00D53F45 /* HomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
+		DB8F60F920C081C200D53F45 /* TimeTableTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableTabViewController.swift; sourceTree = "<group>"; };
+		DB8F60FB20C081D700D53F45 /* ProfileTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabViewController.swift; sourceTree = "<group>"; };
+		DB8F60FE20C08C9E00D53F45 /* UIFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFormatting.swift; sourceTree = "<group>"; };
+		DB8F610020C0920F00D53F45 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		DBB4366F20BF44BB0036868F /* AMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB4367220BF44BB0036868F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBB4367420BF44BB0036868F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +49,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1BECF3A024B5C941FE892F2 /* Pods_AMS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29B64FAD5E1CB9F0027FE0CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A21DD3D9703143ECFADF5C7F /* Pods_AMS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E860BDD3E4B0609D0EA5814 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5122DE029C54AE1908A2A650 /* Pods-AMS.debug.xcconfig */,
+				D105040D24D30E1529367856 /* Pods-AMS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB8F60F420C0782900D53F45 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				DB8F60F020C077B100D53F45 /* RegistrationHomeViewController.swift */,
+				DB8F60F220C0781E00D53F45 /* CollegeViewController.swift */,
+				DB8F60F520C07AB400D53F45 /* CoachingViewController.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		DB8F60FD20C08C7900D53F45 /* UserTabControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB8F610020C0920F00D53F45 /* TabBarViewController.swift */,
+				DB8F60FB20C081D700D53F45 /* ProfileTabViewController.swift */,
+				DB8F60F920C081C200D53F45 /* TimeTableTabViewController.swift */,
+				DB8F60F720C0819E00D53F45 /* HomeTabViewController.swift */,
+			);
+			path = UserTabControllers;
+			sourceTree = "<group>";
+		};
 		DBB4366620BF44BB0036868F = {
 			isa = PBXGroup;
 			children = (
 				DBB4367120BF44BB0036868F /* AMS */,
 				DBB4367020BF44BB0036868F /* Products */,
+				3E860BDD3E4B0609D0EA5814 /* Pods */,
+				29B64FAD5E1CB9F0027FE0CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +117,10 @@
 			children = (
 				DBB4367220BF44BB0036868F /* AppDelegate.swift */,
 				DBB4367420BF44BB0036868F /* ViewController.swift */,
+				DB8F60FE20C08C9E00D53F45 /* UIFormatting.swift */,
+				DB8F60F420C0782900D53F45 /* Registration */,
 				DBB4367620BF44BB0036868F /* Main.storyboard */,
+				DB8F60FD20C08C7900D53F45 /* UserTabControllers */,
 				DBB4367920BF44BD0036868F /* Assets.xcassets */,
 				DBB4367B20BF44BD0036868F /* LaunchScreen.storyboard */,
 				DBB4367E20BF44BD0036868F /* Info.plist */,
@@ -71,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBB4368120BF44BD0036868F /* Build configuration list for PBXNativeTarget "AMS" */;
 			buildPhases = (
+				D384059CA203FED728134A5E /* [CP] Check Pods Manifest.lock */,
 				DBB4366B20BF44BB0036868F /* Sources */,
 				DBB4366C20BF44BB0036868F /* Frameworks */,
 				DBB4366D20BF44BB0036868F /* Resources */,
+				6883F285EBEEBAAB3B80436B /* [CP] Embed Pods Frameworks */,
+				336DF21B8687C4785009FA54 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +197,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		336DF21B8687C4785009FA54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMS/Pods-AMS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6883F285EBEEBAAB3B80436B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AMS/Pods-AMS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMS/Pods-AMS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D384059CA203FED728134A5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AMS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DBB4366B20BF44BB0036868F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8F60FC20C081D700D53F45 /* ProfileTabViewController.swift in Sources */,
+				DB8F60FA20C081C200D53F45 /* TimeTableTabViewController.swift in Sources */,
+				DB8F60FF20C08C9E00D53F45 /* UIFormatting.swift in Sources */,
+				DB8F60F320C0781E00D53F45 /* CollegeViewController.swift in Sources */,
 				DBB4367520BF44BB0036868F /* ViewController.swift in Sources */,
 				DBB4367320BF44BB0036868F /* AppDelegate.swift in Sources */,
+				DB8F60F620C07AB400D53F45 /* CoachingViewController.swift in Sources */,
+				DB8F60F120C077B100D53F45 /* RegistrationHomeViewController.swift in Sources */,
+				DB8F610120C0920F00D53F45 /* TabBarViewController.swift in Sources */,
+				DB8F60F820C0819E00D53F45 /* HomeTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,35 +413,33 @@
 		};
 		DBB4368220BF44BD0036868F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5122DE029C54AE1908A2A650 /* Pods-AMS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J7Z474QUR;
 				INFOPLIST_FILE = AMS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rishstudio.AMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DBB4368320BF44BD0036868F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D105040D24D30E1529367856 /* Pods-AMS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J7Z474QUR;
 				INFOPLIST_FILE = AMS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rishstudio.AMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
